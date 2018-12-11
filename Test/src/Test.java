@@ -34,8 +34,6 @@ public class Test {
 //count the number of even numbers between 1 and user input.
 		public static void fizzBuzz() {
 		for(int i = 1; i <=100; i++) {
-			if(i%3==0 && i%5!=0)
-				System.out.println(i + " -Fizz");
 			if(i%3==0 && i%5==0) {
 				System.out.println("FizzBuzz");
 			}
