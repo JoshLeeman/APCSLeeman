@@ -8,7 +8,7 @@ public class Locomotive extends TrainCar{
 	
 	public Locomotive(Graphics g,Color cc, int x1)
 	{
-		super(g,Color.red,x1);
+		super(g,Color.blue,x1);
 		x = x1;
 		drawFront(g);
 		drawTop(g);

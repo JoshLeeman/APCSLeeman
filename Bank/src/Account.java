@@ -1,11 +1,11 @@
 
 public class Account {
-	private double deposit;
+	
 	protected double balance;
-	private double initBalance;
+	
 	
 public Account (double initialBalance) {
-		balance = initBalance;
+		balance = initialBalance;
 	}
 public double getBalance() {
 	return balance;
